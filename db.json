@@ -1,100 +1,103 @@
 {
-    "admin": [{
-            "id": "3bbb",
-            "loginType": "Admin Login",
-            "email": "Dimpal",
-            "password": "Dimpal@123"
-        },
-        {
-            "id": "3bbb",
-            "loginType": "Employee 1",
-            "email": "Himanshu",
-            "password": "Himanshu@123"
-        },
-        {
-            "id": "3bbb",
-            "loginType": "Employee 2",
-            "email": "Hitanshu",
-            "password": "Hit@123"
-        }
-    ],
-    "user": [{
-            "id": "ccfc",
-            "name": "himanshu",
-            "email": "patel@1237",
-            "contact": 7090380010,
-            "city/village ": "pune",
-            "Requirement": ""
-        },
-        {
-            "id": "d640",
-            "name": "",
-            "email": "",
-            "contact": "",
-            "city/village ": "",
-            "Requirement": ""
-        },
-        {
-            "id": "2ada",
-            "name": "",
-            "email": "",
-            "contact": "",
-            "city/village ": "",
-            "Requirement": ""
-        },
-        {
-            "id": "afbf",
-            "name": "himanshu",
-            "email": "him@",
-            "contact": "6545604+651",
-            "cityVillage": "jhscvaus",
-            "requirement": "jhhvds"
-        }
-    ],
-    "projects": [{
-            "id": "e856",
-            "name": "INTERIOR",
-            "price": "",
-            "category": "",
-            "color": "",
-            "description": "",
-            "image": "https://media.istockphoto.com/id/502011582/photo/home-under-construction.webp?b=1&s=170667a&w=0&k=20&c=h3gpimN4_bZ5Esy9idCzGumbDqCS_9g1wSTqcT8Gafk="
-        },
-        {
-            "id": "e856",
-            "name": "RESIDENTIAL",
-            "price": "",
-            "category": "",
-            "color": "",
-            "description": "",
-            "image": "https://media.istockphoto.com/id/157506404/photo/row-houses.jpg?s=612x612&w=0&k=20&c=tUtMmhC2KwFDPa9TySEy0pemC4qmxMWUpA14p6vvAG4="
-        },
-        {
-            "id": "8",
-            "name": "COMMERCIAL",
-            "price": "",
-            "category": "",
-            "color": "",
-            "description": "",
-            "image": "https://images.unsplash.com/photo-1605794138183-36eb71ac9265?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fENvbW1lcmNpYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60\" "
-        },
-        {
-            "id": "9",
-            "name": "VILLAS & RESORTS",
-            "price": "",
-            "category": "",
-            "color": "",
-            "description": "",
-            "image": "https://qph.cf2.quoracdn.net/main-qimg-57c180c1fcd8a47b87896fc7015443ca-lq "
-        },
-        {
-            "id": "9",
-            "name": "COMPLETED PROJECTS",
-            "price": "",
-            "category": "",
-            "color": "",
-            "description": "",
-            "image": "https://api.makemyhouse.com/public/Media/rimage/500/completed-project/1714654791_975.jpg?watermark=false"
-        }
-    ]
+  "admin": [
+    {
+      "id": "3bbb",
+      "loginType": "Admin Login",
+      "email": "Dimpal",
+      "password": "Dimpal@123"
+    },
+    {
+      "id": "3bbb",
+      "loginType": "Employee 1",
+      "email": "Himanshu",
+      "password": "Himanshu@123"
+    },
+    {
+      "id": "3bbb",
+      "loginType": "Employee 2",
+      "email": "Hitanshu",
+      "password": "Hit@123"
+    }
+  ],
+  "user": [
+    {
+      "id": "ccfc",
+      "name": "himanshu",
+      "email": "patel@1237",
+      "contact": 7090380010,
+      "city/village ": "pune",
+      "Requirement": ""
+    },
+    {
+      "id": "d640",
+      "name": "",
+      "email": "",
+      "contact": "",
+      "city/village ": "",
+      "Requirement": ""
+    },
+    {
+      "id": "2ada",
+      "name": "",
+      "email": "",
+      "contact": "",
+      "city/village ": "",
+      "Requirement": ""
+    },
+    {
+      "id": "afbf",
+      "name": "himanshu",
+      "email": "him@",
+      "contact": "6545604+651",
+      "cityVillage": "jhscvaus",
+      "requirement": "jhhvds"
+    }
+  ],
+  "projects": [
+    {
+      "id": "e856",
+      "name": "INTERIOR",
+      "price": "",
+      "category": "",
+      "color": "",
+      "description": "",
+      "image": "https://media.istockphoto.com/id/502011582/photo/home-under-construction.webp?b=1&s=170667a&w=0&k=20&c=h3gpimN4_bZ5Esy9idCzGumbDqCS_9g1wSTqcT8Gafk="
+    },
+    {
+      "id": "e856",
+      "name": "RESIDENTIAL",
+      "price": "",
+      "category": "",
+      "color": "",
+      "description": "",
+      "image": "https://media.istockphoto.com/id/157506404/photo/row-houses.jpg?s=612x612&w=0&k=20&c=tUtMmhC2KwFDPa9TySEy0pemC4qmxMWUpA14p6vvAG4="
+    },
+    {
+      "id": "8",
+      "name": "COMMERCIAL",
+      "price": "",
+      "category": "",
+      "color": "",
+      "description": "",
+      "image": "https://images.unsplash.com/photo-1605794138183-36eb71ac9265?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fENvbW1lcmNpYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60\" "
+    },
+    {
+      "id": "9",
+      "name": "VILLAS & RESORTS",
+      "price": "",
+      "category": "",
+      "color": "",
+      "description": "",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-57c180c1fcd8a47b87896fc7015443ca-lq "
+    },
+    {
+      "id": "9",
+      "name": "COMPLETED PROJECTS",
+      "price": "",
+      "category": "",
+      "color": "",
+      "description": "",
+      "image": "https://api.makemyhouse.com/public/Media/rimage/500/completed-project/1714654791_975.jpg?watermark=false"
+    }
+  ]
 }
