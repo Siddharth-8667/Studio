@@ -1,0 +1,42 @@
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: blueviolet;
+    /* Add blueviolet background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 90px;
+    width: 150px;
+}
+
+.nav-button {
+    margin-left: 5px;
+    color: black;
+}
+
+.container-fluid {
+    background-color: blueviolet;
+}
+
+
+/* Styles for mobile view */
+
+@media screen and (max-width: 768px) {
+    .logo {
+        height: 70px;
+        width: 120px;
+    }
+}

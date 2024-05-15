@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="contact-info">
+                <p><b>AR.Dimpal Patel</b> <br>Architecture<br> Contact No
+                    <fa-icon [icon]="phoneIcon"></fa-icon> : <a href="tel:+8806195858">8806195858</a> </p>
+            </div>
+            <div class="contact-info">
+                <p><b>ID.Shruti Patil</b> <br>Interior Designer<br> Contact No
+                    <fa-icon [icon]="phoneIcon "></fa-icon> :
+                    <a href="tel:+7972539800 ">7972539800</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-6 ">
+            <div class="user-auth">
+                <h1>Fill Form Enquiry Form</h1>
+                <form #userRequirement="ngForm" class="common-form " (ngSubmit)="submit(userRequirement) ">
+                    <input type="text " class="form-input " placeholder="Enter Name " name="name " ngModel required/>
+                    <input type="email " class="form-input " placeholder="Enter Email " name="email " ngModel required/>
+                    <input type="tel " class="form-input " placeholder="Enter contact " name="contact " ngModel required/>
+                    <input type="text " class="form-input " placeholder="City/Village " name="cityVillage " ngModel required/>
+                    <textarea class="form-input " placeholder="Enter your Requirement " name="requirement " ngModel required></textarea>
+                    <button type="submit " class="form-button ">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

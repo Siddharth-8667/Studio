@@ -1,0 +1,94 @@
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-container">
+    <div class="container-fluid">
+        <div class="logo-container">
+            <a class="navbar-brand" routerLink="admin-auth">
+                <img src="assets/img/Logo.jpg" alt="Logo" class="logo">
+            </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" [ngSwitch]="menuType" [ngClass]="{ 'show': isNavbarCollapsed }">
+            <ul *ngSwitchCase="'default'" class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/" routerLinkActive="active" (click)="closeNavbar()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/about-us" routerLinkActive="active" (click)="closeNavbar()">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/projects" routerLinkActive="active" (click)="closeNavbar()">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/contact-us" routerLinkActive="active" (click)="closeNavbar()">Contact Us</a>
+                </li>
+            </ul>
+            <ul *ngSwitchCase="'admin'" class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/admin-add-projects" routerLinkActive="active">Add Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/admin-home" routerLinkActive="active">List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/projects" routerLinkActive="active">View Projects</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link btn btn-link" (click)="adminLogout()">Logout</button>
+                </li>
+                <li class="nav-item">
+                    <span class="nav-link">{{ sellerName | titlecase }}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav> -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-container">
+    <div class="container-fluid">
+        <div class="logo-container">
+            <a class="navbar-brand" routerLink="admin-auth">
+                <img src="assets/img/Logo.jpg" alt="Logo" class="logo">
+            </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" [ngSwitch]="menuType" [ngClass]="{ 'show': isNavbarCollapsed }">
+            <ul *ngSwitchCase="'default'" class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/" routerLinkActive="active" (click)="closeNavbar()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/about-us" routerLinkActive="active" (click)="closeNavbar()">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/projects" routerLinkActive="active" (click)="closeNavbar()">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/contact-us" routerLinkActive="active" (click)="closeNavbar()">Contact Us</a>
+                </li>
+            </ul>
+            <ul *ngSwitchCase="'admin'" class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/admin-add-projects" routerLinkActive="active" (click)="closeNavbar()">Add Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/admin-home" routerLinkActive="active" (click)="closeNavbar()">List</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/projects" routerLinkActive="active" (click)="closeNavbar()">View Projects</a>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link btn btn-link" (click)="adminLogout(); closeNavbar()">Logout</button>
+                </li>
+                <li class="nav-item">
+                    <span class="nav-link">{{ sellerName | titlecase }}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

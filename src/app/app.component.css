@@ -1,0 +1,15 @@
+    .container {
+        margin-top: 10px;
+        /* Set margin top for the container */
+    }
+    
+    .header-margin {
+        margin-bottom: 10px;
+        /* Set margin bottom for the header */
+    }
+    
+    .router-outlet-margin {
+        margin-bottom: 10px;
+        /* Set margin bottom for the router outlet */
+        margin-top: 10;
+    }

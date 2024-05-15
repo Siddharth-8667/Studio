@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-info,
+.user-auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.contact-info p,
+.user-auth h1 {
+    margin-bottom: 5px;
+    color: blueviolet;
+    text-align: center;
+    font-size: medium;
+}
+
+.contact-info p {
+    border: none;
+    /* Remove border */
+}
+
+.contact-info a,
+.user-auth a {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.form-button {
+    height: 35px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.common-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-input {
+    height: 35px;
+    border: 1px solid blueviolet;
+    padding-left: 15px;
+    color: blueviolet;
+}
+
+.user-auth h1 {
+    margin-top: 0;
+    /* Adjust to your preference */
+}
+
+
+/* Adjust the z-index of your header */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+.contact-info+.contact-info {
+    margin-top: 5px;
+    /* Distance between contact-info elements */
+}
+
+.user-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* Optional: for visualization */
+    text-align: center;
+    /* Center text content horizontally */
+}

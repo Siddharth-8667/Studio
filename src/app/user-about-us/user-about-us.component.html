@@ -1,0 +1,13 @@
+<section class="about-us-section">
+    <div class="container">
+        <h2>{{ aboutUsData.title }}</h2>
+        <p>{{ aboutUsData.description }}</p>
+        <h3>Our Team</h3>
+        <div class="team-members">
+            <div *ngFor="let member of aboutUsData.team" class="team-member">
+                <h4>{{ member.name }}</h4>
+                <p>{{ member.position }}</p>
+            </div>
+        </div>
+    </div>
+</section>

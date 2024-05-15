@@ -1,0 +1,62 @@
+.user-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    width: 300px;
+    /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    /* Optional: for visualization */
+    text-align: center;
+    /* Center text content horizontally */
+}
+
+.user-auth h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+.user-auth a {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.form-button {
+    height: 35px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    /* horizontally center */
+    align-items: center;
+    /* vertically center */
+    height: 100vh;
+    /* Optional: to center vertically in the viewport */
+}
+
+.common-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Adjust the width as needed */
+}
+
+.form-input {
+    height: 35px;
+    margin-bottom: 20px;
+    border: 1px solid blueviolet;
+    padding-left: 15px;
+    color: blueviolet;
+}

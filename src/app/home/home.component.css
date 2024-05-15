@@ -1,0 +1,33 @@
+.picsum-img-wrapper {
+    height: 100%;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    /* Ensure the wrapper fills the entire carousel container */
+}
+
+.carousel-img {
+    width: 100%;
+    /* Ensure the image fills the entire wrapper */
+    height: 400px;
+    /* Ensure the image fills the entire wrapper */
+    object-fit: cover;
+    margin-top: 80px;
+    /* Maintain aspect ratio and cover the entire space */
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 100px);
+    /* Set minimum height to fill the viewport */
+}
+
+.custom-img {
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.row2 {
+    margin-top: 20px;
+}

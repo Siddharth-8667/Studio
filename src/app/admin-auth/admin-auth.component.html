@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="user-auth">
+        <!-- Alert message for successful login -->
+        <div *ngIf="isLoggedIn" class="alert alert-success" role="alert">
+            You are successfully logged in!
+        </div>
+
+        <!-- Alert message for authentication error -->
+        <div *ngIf="authError" class="alert alert-danger" role="alert">
+            {{ authError }}
+        </div>
+
+        <h1>Admin Login</h1>
+        <form #loginForm="ngForm" class="common-form" (ngSubmit)="login(loginForm.value)">
+            <select class="form-input" name="loginType" [(ngModel)]="selectedLoginType">
+            <option value="type" [selected]="selectedLoginType === 'type'">Selected-Login-Type</option>
+            <option value="admin" [selected]="selectedLoginType === 'admin'">Admin Login</option>
+            <option value="employee1" [selected]="selectedLoginType === 'employee1'">Employee 1</option>
+            <option value="employee2" [selected]="selectedLoginType === 'employee2'">Employee 2</option>
+        </select>
+            <input type="text" class="form-input" placeholder="Enter User_name" name="email" ngModel />
+            <input type="password" class="form-input" placeholder="Enter password" name="password" ngModel />
+            <button type="submit" class="form-button">Login</button>
+        </form>
+    </div>
+</div>
